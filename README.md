@@ -210,3 +210,7 @@ Few organizations have the resources to maintain a dedicated accessibility leade
 IncludeIQ serves as an AI Chief Accessibility Officer, providing continuous accessibility intelligence, risk monitoring, and improvement recommendations at organizational scale.
 
 Our vision is to make workplace accessibility intelligence as essential and commonplace as cybersecurity intelligence.
+
+## Recognition
+Built as part of the Microsoft Agents League Hackathon, 
+June 2026.
