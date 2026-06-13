@@ -64,7 +64,7 @@ function App() {
             disabled={loading || !text.trim()}
             className="w-full bg-indigo-600 text-white font-bold py-3 px-6 rounded-xl shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-200"
           >
-            {loading ? 'Analyzing with Groq...' : 'Analyze Document'}
+            {loading ? 'Analyzing with Azure AI...' : 'Analyze Document'}
           </button>
         </main>
 

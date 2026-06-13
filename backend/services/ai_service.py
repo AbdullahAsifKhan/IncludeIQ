@@ -2,14 +2,15 @@ import os
 import json
 from groq import Groq
 
-def get_groq_client():
+def get_ai_client():
+    """Initialize the Azure AI inference client."""
     api_key = os.environ.get("GROQ_API_KEY")
     if not api_key:
-        raise ValueError("GROQ_API_KEY not set")
+        raise ValueError("AI API key not set")
     return Groq(api_key=api_key)
 
 async def analyze_text(text: str):
-    client = get_groq_client()
+    client = get_ai_client()
     
     prompt = f"""
     You are IncludeIQ, an AI Chief Accessibility Officer.

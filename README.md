@@ -211,6 +211,13 @@ IncludeIQ serves as an AI Chief Accessibility Officer, providing continuous acce
 
 Our vision is to make workplace accessibility intelligence as essential and commonplace as cybersecurity intelligence.
 
+## Tech Stack
+
+* **AI Engine:** Azure AI Foundry with Microsoft Copilot integration
+* **Backend:** Python, FastAPI
+* **Frontend:** React, Vite, Tailwind CSS
+* **Hosting:** Railway (Backend), Vercel (Frontend)
+
 ## Recognition
 Built as part of the Microsoft Agents League Hackathon, 
 June 2026.
